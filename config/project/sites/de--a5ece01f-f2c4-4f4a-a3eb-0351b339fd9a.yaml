@@ -1,0 +1,9 @@
+baseUrl: $DE_URL
+enabled: '1'
+handle: de
+hasUrls: true
+language: de
+name: DE
+primary: false
+siteGroup: 6bfbbea2-b2f8-4714-a584-cc45884e1a6b # loanword-library
+sortOrder: 2

@@ -1,0 +1,88 @@
+dateModified: 1745139244
+elementSources:
+  craft\elements\Entry:
+    -
+      defaultSort:
+        - postDate
+        - desc
+      defaultViewMode: ''
+      disabled: true
+      key: '*'
+      tableAttributes:
+        - status
+        - section
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      defaultSort:
+        - title
+        - asc
+      defaultViewMode: ''
+      disabled: false
+      key: singles
+      tableAttributes:
+        - status
+        - link
+      type: native
+    -
+      heading: ''
+      type: heading
+    -
+      defaultSort:
+        - postDate
+        - desc
+      defaultViewMode: ''
+      disabled: false
+      key: 'section:83bd2e7a-7bdb-4812-b5a6-f568c59b1572' # Another Section
+      tableAttributes:
+        - status
+        - postDate
+        - expiryDate
+        - link
+      type: native
+email:
+  fromEmail: samuelreichor@gmail.com
+  fromName: loanword-library
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    3e030166-231b-437d-9f6a-f0817da70142: 'Plain Text Translatable' # Plain Text Translatable
+    6bfbbea2-b2f8-4714-a584-cc45884e1a6b: loanword-library # loanword-library
+    46d40ab4-3fc0-4b2c-ac81-b763fbcef3ab: IT # IT
+    48f40e40-bc3e-400d-9502-051298b4de6b: EN # EN
+    52ee9207-fdfc-4374-89b3-e879e80fb194: 'Entry: Default' # Entry: Default
+    83bd2e7a-7bdb-4812-b5a6-f568c59b1572: 'Another Section' # Another Section
+    322ec983-b3ed-4bd9-8f24-cbb5e82c31b8: Home # Home
+    9397563a-7373-4f22-aa43-aa6d89b53212: Richtext # Richtext
+    a5ece01f-f2c4-4f4a-a3eb-0351b339fd9a: DE # DE
+    a710df0a-1928-4ca9-ab8d-6cd7d0b2ec49: Simple # Simple
+    d1cc2006-ac2a-45a3-b0e5-fbf10f1137c3: FR # FR
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  loanwords:
+    edition: standard
+    enabled: true
+    licenseKey: HE0UKOZAMBCML0HLX0GCFNCL
+    schemaVersion: 1.0.0
+    settings:
+      caseSensitive: false
+      cssClass: inline
+      defaultLang: en-AT
+system:
+  edition: solo
+  live: true
+  name: loanword-library
+  schemaVersion: 5.7.0.3
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

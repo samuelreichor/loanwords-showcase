@@ -1,0 +1,43 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 52ee9207-fdfc-4374-89b3-e879e80fb194 # Entry: Default
+handle: anotherSection
+maxAuthors: 1
+name: 'Another Section'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  46d40ab4-3fc0-4b2c-ac81-b763fbcef3ab: # IT
+    enabledByDefault: true
+    hasUrls: true
+    template: another-section/_entry.twig
+    uriFormat: 'another-section/{slug}'
+  48f40e40-bc3e-400d-9502-051298b4de6b: # EN
+    enabledByDefault: true
+    hasUrls: true
+    template: another-section/_entry.twig
+    uriFormat: 'another-section/{slug}'
+  a5ece01f-f2c4-4f4a-a3eb-0351b339fd9a: # DE
+    enabledByDefault: true
+    hasUrls: true
+    template: another-section/_entry.twig
+    uriFormat: 'another-section/{slug}'
+  d1cc2006-ac2a-45a3-b0e5-fbf10f1137c3: # FR
+    enabledByDefault: true
+    hasUrls: true
+    template: another-section/_entry.twig
+    uriFormat: 'another-section/{slug}'
+type: channel

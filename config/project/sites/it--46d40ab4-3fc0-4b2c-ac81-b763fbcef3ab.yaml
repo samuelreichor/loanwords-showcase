@@ -1,0 +1,9 @@
+baseUrl: $IT_URL
+enabled: '1'
+handle: it
+hasUrls: true
+language: it
+name: IT
+primary: false
+siteGroup: 6bfbbea2-b2f8-4714-a584-cc45884e1a6b # loanword-library
+sortOrder: 3

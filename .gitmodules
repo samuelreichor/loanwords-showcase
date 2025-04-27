@@ -1,0 +1,3 @@
+[submodule "plugins/loanwords"]
+	path = plugins/loanwords
+	url = git@github.com:samuelreichor/craft-loanwords.git

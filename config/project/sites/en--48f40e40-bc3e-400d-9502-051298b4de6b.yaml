@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: en
+hasUrls: true
+language: en
+name: EN
+primary: true
+siteGroup: 6bfbbea2-b2f8-4714-a584-cc45884e1a6b # loanword-library
+sortOrder: 1
